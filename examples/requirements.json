@@ -1,0 +1,31 @@
+{
+  "city": "杭州",
+  "budget": {
+    "max": 3500,
+    "basis": "fixed_total"
+  },
+  "hard": {
+    "district": {
+      "op": "eq",
+      "value": "滨江"
+    },
+    "rental_type": {
+      "op": "eq",
+      "value": "整租"
+    },
+    "orientation": {
+      "op": "eq",
+      "value": "南"
+    },
+    "private_bathroom": {
+      "op": "eq",
+      "value": true
+    }
+  },
+  "preferences": {
+    "elevator": {
+      "op": "eq",
+      "value": true
+    }
+  }
+}

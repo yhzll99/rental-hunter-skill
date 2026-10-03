@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "cities": [
+    {
+      "name": "上海",
+      "province": "上海",
+      "priority": true
+    },
+    {
+      "name": "南京",
+      "province": "江苏",
+      "priority": true
+    },
+    {
+      "name": "苏州",
+      "province": "江苏",
+      "priority": true
+    },
+    {
+      "name": "无锡",
+      "province": "江苏",
+      "priority": true
+    },
+    {
+      "name": "常州",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "镇江",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "南通",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "扬州",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "泰州",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "盐城",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "淮安",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "宿迁",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "徐州",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "连云港",
+      "province": "江苏",
+      "priority": false
+    },
+    {
+      "name": "杭州",
+      "province": "浙江",
+      "priority": true
+    },
+    {
+      "name": "宁波",
+      "province": "浙江",
+      "priority": true
+    },
+    {
+      "name": "温州",
+      "province": "浙江",
+      "priority": false
+    },
+    {
+      "name": "嘉兴",
+      "province": "浙江",
+      "priority": false
+    },
+    {
+      "name": "湖州",
+      "province": "浙江",
+      "priority": false
+    },
+    {
+      "name": "绍兴",
+      "province": "浙江",
+      "priority": false
+    },
+    {
+      "name": "金华",
+      "province": "浙江",
+      "priority": false
+    },
+    {
+      "name": "衢州",
+      "province": "浙江",
+      "priority": false
+    },
+    {
+      "name": "舟山",
+      "province": "浙江",
+      "priority": false
+    },
+    {
+      "name": "台州",
+      "province": "浙江",
+      "priority": false
+    },
+    {
+      "name": "丽水",
+      "province": "浙江",
+      "priority": false
+    }
+  ],
+  "providers": [
+    {
+      "id": "ke",
+      "name": "贝壳",
+      "domain": "ke.com",
+      "group": "beike",
+      "default": true
+    },
+    {
+      "id": "ziroom",
+      "name": "自如",
+      "domain": "ziroom.com",
+      "group": "ziroom",
+      "default": true
+    },
+    {
+      "id": "58",
+      "name": "58同城",
+      "domain": "58.com",
+      "group": "58",
+      "default": true
+    },
+    {
+      "id": "lianjia",
+      "name": "链家",
+      "domain": "lianjia.com",
+      "group": "beike",
+      "default": false
+    },
+    {
+      "id": "anjuke",
+      "name": "安居客",
+      "domain": "anjuke.com",
+      "group": "58",
+      "default": false
+    },
+    {
+      "id": "5i5j",
+      "name": "我爱我家",
+      "domain": "5i5j.com",
+      "group": "5i5j",
+      "default": false
+    },
+    {
+      "id": "douban",
+      "name": "豆瓣租房小组",
+      "domain": "douban.com",
+      "group": "douban",
+      "default": false
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "domain": "xiaohongshu.com",
+      "group": "xiaohongshu",
+      "default": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "租房搜寻 · 江浙沪优先"
+  short_description: "按地点、预算、朝向和设施跨站找房，保留来源证据并列出待核实项"
+  default_prompt: "用 $rental-finder-cn 帮我找杭州滨江的整租，固定月费总计3500以内，必须朝南有独卫，最好有电梯。"
+policy:
+  allow_implicit_invocation: true

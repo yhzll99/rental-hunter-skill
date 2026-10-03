@@ -1,0 +1,166 @@
+[
+  {
+    "id": "demo-match",
+    "title": "模拟A：页面条件完整",
+    "url": "https://example.com/a",
+    "source": "模拟平台",
+    "observed_at": "2026-10-03T10:00:00+00:00",
+    "evidence_level": "detail",
+    "facts": {
+      "city": {
+        "value": "杭州",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "district": {
+        "value": "滨江",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "rental_type": {
+        "value": "整租",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "orientation": {
+        "value": "南",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "private_bathroom": {
+        "value": true,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "rent_monthly": {
+        "value": 3200,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "mandatory_recurring_monthly": {
+        "value": 100,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "elevator": {
+        "value": true,
+        "evidence": "模拟页面明确记载该值"
+      }
+    }
+  },
+  {
+    "id": "demo-fee",
+    "title": "模拟B：固定月费超预算",
+    "url": "https://example.com/b",
+    "source": "模拟平台",
+    "observed_at": "2026-10-03T10:00:00+00:00",
+    "evidence_level": "detail",
+    "facts": {
+      "city": {
+        "value": "杭州",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "district": {
+        "value": "滨江",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "rental_type": {
+        "value": "整租",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "orientation": {
+        "value": "南",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "private_bathroom": {
+        "value": true,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "rent_monthly": {
+        "value": 3200,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "mandatory_recurring_monthly": {
+        "value": 500,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "elevator": {
+        "value": true,
+        "evidence": "模拟页面明确记载该值"
+      }
+    }
+  },
+  {
+    "id": "demo-unknown",
+    "title": "模拟C：朝向缺证据",
+    "url": "https://example.com/c",
+    "source": "模拟平台",
+    "observed_at": "2026-10-03T10:00:00+00:00",
+    "evidence_level": "detail",
+    "facts": {
+      "city": {
+        "value": "杭州",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "district": {
+        "value": "滨江",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "rental_type": {
+        "value": "整租",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "private_bathroom": {
+        "value": true,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "rent_monthly": {
+        "value": 3200,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "mandatory_recurring_monthly": {
+        "value": 100,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "elevator": {
+        "value": true,
+        "evidence": "模拟页面明确记载该值"
+      }
+    }
+  },
+  {
+    "id": "demo-snippet",
+    "title": "模拟D：仅搜索摘要",
+    "url": "https://example.com/d",
+    "source": "模拟平台",
+    "observed_at": "2026-10-03T10:00:00+00:00",
+    "evidence_level": "snippet",
+    "facts": {
+      "city": {
+        "value": "杭州",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "district": {
+        "value": "滨江",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "rental_type": {
+        "value": "整租",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "orientation": {
+        "value": "南",
+        "evidence": "模拟页面明确记载该值"
+      },
+      "private_bathroom": {
+        "value": true,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "rent_monthly": {
+        "value": 3200,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "mandatory_recurring_monthly": {
+        "value": 100,
+        "evidence": "模拟页面明确记载该值"
+      },
+      "elevator": {
+        "value": true,
+        "evidence": "模拟页面明确记载该值"
+      }
+    }
+  }
+]
