@@ -38,4 +38,6 @@
 - [WorkBuddy 技能安装](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)：支持导入本地技能包。
 - [WorkBuddy Open Platform Skill](https://open.workbuddy.cn/en/docs/skill)：检查了 description_zh / description_en / version / author 等要求；WorkBuddy ZIP 单独注入这些元数据。
 
-WorkBuddy 客户端实机导入、技能市场审核、Windows/Linux CI、真实租房转化率仍未验证。包结构检查不能代替客户端验收。初版本地验收未进行消息发送、预约、付费或登录绕过。后续 GitHub 开源发布记录见 [RELEASE.md](RELEASE.md)，跨平台运行状态见仓库 Actions。
+开源发布前，[GitHub Actions 六组验证](https://github.com/yhzll99/rental-hunter-skill/actions/runs/37133920134)全部通过：Windows、macOS、Linux × Python 3.10 / 3.13，各运行 27 项测试及双包生成。
+
+WorkBuddy 客户端实机导入、技能市场审核和真实租房转化率仍未验证。包结构检查不能代替客户端验收。初版本地验收未进行消息发送、预约、付费或登录绕过。后续 GitHub 开源发布记录见 [RELEASE.md](RELEASE.md)，跨平台运行状态见仓库 Actions。
